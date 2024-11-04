@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+}
+
+input[type="file"] {
+    margin-bottom: 10px;
+}
+
+#jsonOutput {
+    margin-top: 20px;
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+#jsonOutput ul {
+    list-style-type: none;
+    padding-left: 20px;
+}
+
+#jsonOutput li {
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+#jsonOutput li:hover {
+    background-color: #e0e0e0;
+}
+
+#jsonPath {
+    margin-top: 20px;
+    font-weight: bold;
+}

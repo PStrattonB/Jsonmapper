@@ -1,0 +1,44 @@
+{
+    "name": "John Doe",
+    "age": 30,
+    "email": "john.doe@example.com",
+    "address": {
+        "street": "123 Main St",
+        "city": "Anytown",
+        "state": "CA",
+        "postalCode": "12345",
+        "country": "USA"
+    },
+    "phoneNumbers": [
+        {
+            "type": "home",
+            "number": "555-555-5555"
+        },
+        {
+            "type": "work",
+            "number": "555-555-5556"
+        },
+        {
+            "type": "mobile",
+            "number": "555-555-5557"
+        }
+    ],
+    "isActive": true,
+    "roles": ["user", "admin"],
+    "preferences": {
+        "contactMethod": "email",
+        "newsletterSubscribed": true,
+        "languages": ["en", "es"]
+    },
+    "employment": {
+        "company": "Tech Solutions",
+        "position": "Software Engineer",
+        "startDate": "2015-06-01",
+        "endDate": null
+    },
+    "socialMedia": {
+        "twitter": "@johndoe",
+        "linkedin": "linkedin.com/in/johndoe",
+        "github": "github.com/johndoe"
+    }
+}
